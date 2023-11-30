@@ -39,19 +39,19 @@ Run `make destroy` to destroy both tasks
 
 On folder kafka-service you will find task 1
 ### Plan: 
-    `make kafka-plan`
+    make kafka-plan
 ### Apply:
-    `make kafka-deploy`
+    make kafka-deploy
 
 On folder mesh-service you will find task 2
 ### Plan: 
     make istio-plan
 ## Build 
-    `make build-gRPC`
+    make build-gRPC
 ## Push
-    `make push-gRPC:`
+    make push-gRPC:
 ### Apply:
-    `make istio-deploy`
+    make istio-deploy
 ### Verify
-    `make istio-verify`
+    make istio-verify
     
