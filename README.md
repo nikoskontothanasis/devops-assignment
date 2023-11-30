@@ -2,18 +2,18 @@
 For Terraform installation i use tfenv, you can find the repo [here](https://github.com/tfutils/tfenv#terraform-version-file)
 
 Quick steps:
-`$ brew install tfenv`
-`$ tfenv install latest`
-`$ tfenv use latest`
+`$ brew install tfenv`   
+`$ tfenv install latest`  
+`$ tfenv use latest`  
 Terraform version : v1.6.4
 
 ## Infrastructure Documentation
 ## Kafka-service
 
-For Kafka service uses AWS MSK - [Managed Streaming for Apache Kafka](https://aws.amazon.com/msk/) 
-Assuming that will be on Amazon AWS Cloud. 
-Install aws-cli from [here](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html) 
-Execute aws configure and provide all the necessary info. 
+For Kafka service uses AWS MSK - [Managed Streaming for Apache Kafka](https://aws.amazon.com/msk/).   
+Assuming that will be on Amazon AWS Cloud.   
+Install aws-cli from [here](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html).   
+Execute aws configure and provide all the necessary info.   
 
 Kafka version: 3.3.2 [recommended](https://docs.aws.amazon.com/msk/latest/developerguide/supported-kafka-versions.html#3.3.2)
 
