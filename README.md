@@ -45,7 +45,7 @@ On folder kafka-service you will find task 1
 
 On folder mesh-service you will find task 2
 ### Plan: 
-    `make istio-plan`
+    make istio-plan
 ## Build 
     `make build-gRPC`
 ## Push
